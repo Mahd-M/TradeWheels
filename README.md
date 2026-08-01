@@ -6,9 +6,7 @@ A full-stack used-car marketplace, inspired by PakWheels. Built solo, end to end
 
 ## Overview
 
-I built TradeWheels to take a full-stack project from a rough CRUD app all the way to something with the kind of features a real marketplace actually needs: authentication, ownership rules, real-time messaging with request/blocking logic, a recommendation engine, and an admin moderation layer. It started as a university project and grew well past the original scope, mostly because I kept running into problems (scaling to a few thousand listings, keeping a chat inbox in sync live, deciding what "similar cars" should even mean) that were more interesting to solve properly than to fake.
-
-I came into this with a solid SQL and Python background and picked up React, Express, and Socket.io along the way, so a lot of the design decisions below were made by actually hitting a wall first and then figuring out the right way around it, not by starting from a textbook architecture.
+I built TradeWheels to take a full-stack project from a rough CRUD app all the way to something with the kind of features a real marketplace actually needs: authentication, ownership rules, real-time messaging with request/blocking logic, a recommendation engine, and an admin moderation layer. It started as an internship demo project and grew well past the original scope, mostly because problems like scaling to a few thousand listings, keeping a chat inbox in sync live, and deciding what "similar cars" should even mean turned out to be worth solving properly rather than faking.
 
 ## Features
 
@@ -68,7 +66,7 @@ This project pushed me well outside the SQL and Python work I was originally com
 
 ```bash
 # clone the repo
-git clone https://github.com/your-username/tradewheels.git
+git clone https://github.com/Mahd-M/TradeWheels.gits
 cd tradewheels
 
 # install frontend dependencies (repo root)
@@ -89,9 +87,9 @@ DB_NAME=
 DB_PORT=
 PORT=5000
 JWT_SECRET=
-JWT_EXPIRES_IN=
-COOKIE_NAME=
-CLIENT_URL=
+JWT_EXPIRES_IN=7d
+COOKIE_NAME=token
+CLIENT_URL=http://localhost:5173
 ```
 
 Run the database schema script against your SQL Server instance, then start both servers:
