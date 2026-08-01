@@ -77,20 +77,7 @@ cd backend
 npm install
 ```
 
-Create a `.env` file inside `backend/` with the following variables (see `.env.example` for the full list):
-
-```
-DB_USER=
-DB_PASSWORD=
-DB_SERVER=
-DB_NAME=
-DB_PORT=
-PORT=5000
-JWT_SECRET=
-JWT_EXPIRES_IN=7d
-COOKIE_NAME=token
-CLIENT_URL=http://localhost:5173
-```
+Create a `.env` file inside `backend/` (see `.env.example` )
 
 Run the database schema script against your SQL Server instance, then start both servers:
 
