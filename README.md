@@ -49,7 +49,7 @@ A few of the decisions I'm most glad I made, and why.
 
 ## What I Learned
 
-This project pushed me well outside the SQL and Python work I was originally comfortable with. A few things that stuck with me:
+A few things that stood out most from building this:
 
 - **React's mental model took a while to click**, especially around when a component re-renders and why. I hit a real infinite-render bug in the messaging system caused by an unstable function reference in a `useEffect` dependency array, and tracking that down taught me more about closures and `useCallback` than any tutorial had.
 - **Real-time systems are a different kind of hard.** REST endpoints are easy to reason about one request at a time. Getting a Socket.io chat to behave correctly for both people in a conversation, at the same time, without duplicating or dropping messages, meant thinking about state in a way plain CRUD work never required.
