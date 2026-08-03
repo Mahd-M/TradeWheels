@@ -119,4 +119,4 @@ Things I'd tackle next if I kept building this out:
 
 ## Contact
 
-Muhammad Mahd, github.com/Mahd-M
+Mahd, github.com/Mahd-M
