@@ -8,6 +8,8 @@ A full-stack used-car marketplace, inspired by PakWheels. Built solo, end to end
 
 I built TradeWheels to take a full-stack project from a rough CRUD app all the way to something with the kind of features a real marketplace actually needs: authentication, ownership rules, real-time messaging with request/blocking logic, a recommendation engine, and an admin moderation layer. It started as an internship demo project and grew well past the original scope, mostly because problems like scaling to a few thousand listings, keeping a chat inbox in sync live, and deciding what "similar cars" should even mean turned out to be worth solving properly rather than faking.
 
+If you're a student and want a deeper look at how this is actually built, check out [DETAILED CODE EXPLANATION.md](DETAILED%20CODE%20EXPLANATION.md).
+
 ## Features
 
 - **Accounts and permissions.** Email/password auth with hashed passwords and JWT sessions stored in an httpOnly cookie. Listings have real ownership, admins have a separate role, and every protected action is enforced on the backend, not just hidden in the UI.
