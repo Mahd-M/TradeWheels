@@ -1,4 +1,4 @@
-const COOKIE_NAME = process.env.COOKIE_NAME || 'token'
+const COOKIE_NAME = process.env.COOKIE_NAME || 'token' // only runs because server.js already has dotenv.config() called so we can access process.env here
 
 
 /* global require, module, process */
