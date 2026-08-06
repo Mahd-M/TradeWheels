@@ -2,7 +2,7 @@
 
 A full-stack used-car marketplace, inspired by PakWheels. Built solo, end to end: React frontend, Node/Express backend, Socket.io for real-time chat, and SQL Server for the data layer.
 
-See `Preview`
+See [Preview](Preview)
 
 ---
 
