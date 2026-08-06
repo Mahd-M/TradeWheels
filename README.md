@@ -2,6 +2,8 @@
 
 A full-stack used-car marketplace, inspired by PakWheels. Built solo, end to end: React frontend, Node/Express backend, Socket.io for real-time chat, and SQL Server for the data layer.
 
+See `Preview`
+
 ---
 
 ## Overview
@@ -61,6 +63,7 @@ A few things that stood out most from building this:
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js 18+
 - SQL Server (a local instance is enough for development)
 
